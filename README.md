@@ -26,8 +26,8 @@ Klik op de Windows Start knop, typ *omgevingsvariabelen* (of als je Windows Enge
 4. Even controleren of ImageMagick goed geinstalleerd is.
 Willekeurige PDF in willekeurige map.
 Command Prompt openen, 
-> cd naar de map waar je net de pdf in gestopt hebt
->magick filenaam.pdf filenaam.jpg
+     > cd naar de map waar je net de pdf in gestopt hebt
+     > magick filenaam.pdf filenaam.jpg
 
 Hij moet nu een jpg van de PDF gemaakt hebben. (De kwaliteit hiervan is wat beroerd nog, dit is in het python script opgelost).
 
