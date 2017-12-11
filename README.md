@@ -37,8 +37,8 @@ Zet die map als pdf_dir in dpd.py
 (als je alles op de Desktop zet in een map die 'pdf' heet hoef je alleen de Username te veranderen). 
 Het bestand dpd.py in dezelfde pdf map zetten.
 
-Dubbelklik op dpd.py en hij moet werken, en alle PDFs in de map in 4 stukjes hakken.
+     Dubbelklik op dpd.py en hij moet werken, en alle PDFs in de map in 4 stukjes hakken.
 Als hij vraagt waar je het dpd.py bestand mee wilt openen, rechtsklikken op dpd.py, klik Eigenschappen, en voor openen met navigeer naar de python.exe  (waarschijnlijk C:\Program Files\Python36-32\,  of ergens in  C:\User\AppData\Local\ProgramFile0s\Python36-32)
 Klik op python.exe om alle .py bestanden met python te openen.
 
-(je kan de time.sleep() regels uit de code halen als je het zo snel mogelijk wilt hebben en niet hoeft te 'zien' wat hij doet, zoals het er in staat wacht hij na elk PDF bestand 1 seconde, en geeft hij 4 seconden het "ALLES IS KLAAR" bericht weer voor hij sluit).
+    (je kan de time.sleep() regels uit de code halen als je het zo snel mogelijk wilt hebben en niet hoeft te 'zien' wat hij doet, zoals het er in staat wacht hij na elk PDF bestand 1 seconde, en geeft hij 4 seconden het "ALLES IS KLAAR" bericht weer voor hij sluit).
