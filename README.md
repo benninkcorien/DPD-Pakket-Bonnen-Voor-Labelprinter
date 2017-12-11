@@ -25,20 +25,19 @@ Klik op de Windows Start knop, typ *omgevingsvariabelen* (of als je Windows Enge
 
 4. Even controleren of ImageMagick goed geinstalleerd is.
 Willekeurige PDF in willekeurige map.
-Command Prompt openen, 
-     > cd naar de map waar je net de pdf in gestopt hebt
-     > magick filenaam.pdf filenaam.jpg
-
+Command Prompt openen, cd naar de MapMetPDF
+	``` 
+    > magick filenaam.pdf filenaam.jpg
+	```
+	
 Hij moet nu een jpg van de PDF gemaakt hebben. (De kwaliteit hiervan is wat beroerd nog, dit is in het python script opgelost).
 
-5.
-Maak een map aan waar je de DPD PDFs in op wilt slaan.
+5. Maak een map aan waar je de DPD PDFs in op wilt slaan.
 Zet die map als pdf_dir in dpd.py
-(als je alles op de Desktop zet in een map die 'pdf' heet hoef je alleen de Username te veranderen).
-
+(als je alles op de Desktop zet in een map die 'pdf' heet hoef je alleen de Username te veranderen). 
 Het bestand dpd.py in dezelfde pdf map zetten.
-Dubbelklik op dpd.py en hij moet werken, en alle PDFs in de map in 4 stukjes hakken.
 
+Dubbelklik op dpd.py en hij moet werken, en alle PDFs in de map in 4 stukjes hakken.
 Als hij vraagt waar je het dpd.py bestand mee wilt openen, rechtsklikken op dpd.py, klik Eigenschappen, en voor openen met navigeer naar de python.exe  (waarschijnlijk C:\Program Files\Python36-32\,  of ergens in  C:\User\AppData\Local\ProgramFile0s\Python36-32)
 Klik op python.exe om alle .py bestanden met python te openen.
 
