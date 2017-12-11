@@ -12,14 +12,14 @@ for pdf in pdf_files:
 
 	input_pdf = pdf_dir + "\\" + pdf
 	output_jpg =  pdf +".jpg"
-	# command to convert files via imagemagick is convert input.pdf output.jpg
+	# command to convert files via imagemagick < v7 is convert input.pdf output.jpg
 	# density is DPI, quality is JPG quality
-	command = "convert -density 300 " + input_pdf + " -quality 100 " + output_jpg
+	command = "magick -density 300 " + input_pdf + " -quality 100 " + output_jpg
 	# use os.system to send that command..
 	os.system(command)
 
 	new_jpg = output_jpg
-	cutinto4 = "convert " + new_jpg + " -crop 2x2-40-20@ +repage +adjoin tile-%d.jpg "
+	cutinto4 = "magick " + new_jpg + " -crop 2x2-40-20@ +repage +adjoin " + new_jpg + "bon-%d.jpg"
 	print(cutinto4)
 	os.system(cutinto4)
   # de time hieronder kan weg
