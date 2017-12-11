@@ -30,7 +30,7 @@ Command Prompt openen, cd naar de MapMetPDF
     > magick filenaam.pdf filenaam.jpg
 	```
 	
-Hij moet nu een jpg van de PDF gemaakt hebben. (De kwaliteit hiervan is wat beroerd nog, dit is in het python script opgelost).
+    Hij moet nu een jpg van de PDF gemaakt hebben. (De kwaliteit hiervan is wat beroerd nog, dit is in het python script opgelost).
 
 5. Maak een map aan waar je de DPD PDFs in op wilt slaan.
 Zet die map als pdf_dir in dpd.py
