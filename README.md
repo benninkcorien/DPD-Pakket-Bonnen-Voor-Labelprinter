@@ -9,16 +9,17 @@ https://glenbambrick.com/2017/01/10/pdf-to-jpg-conversion-with-python-for-window
 
 1. Installeer Python 3.x vanaf https://www.python.org/
 
-2. Installeer ImageMagick van
-http://www.imagemagick.org/download/binaries/ImageMagick-6.9.7-3-Q8-x86-dll.exe   
+2. Installeer ImageMagick van https://www.imagemagick.org/script/download.php
+Huidige (dec 2017) laatste versie voor Windows 10 x64 is
+https://www.imagemagick.org/download/binaries/ImageMagick-7.0.7-14-Q16-x64-dll.exe
 
 # let op!
 zorg dat Install development headers and libraries for C and C++ aangevinkt is.
 
 3. Voeg ImageMagick to aan PATH
-Windows Start knop, typ 'Path'  (Advanced System Settings > Environment Variables) 
-User variables voor gebruikersnaam, op Path daaronder klikken en Edit, 
-Dan New en pad naar imageMagick daar in plakken (bijvoorbeeld  C:\Program Files\ImageMagick-6.9.9-Q8)
+Windows Start knop, typ 'omgevingsvariabelen (of Path als je Windows Engels is)'  
+(Advanced System Settings > Environment Variables) 
+Dan de omgevingsvariabelen knop, en dan User variables voor gebruikersnaam, op Path in de tabel daaronder klikken en dan op Edit, Dan New om een toe te voegen, en dan moet je het pad naar imageMagick daar in plakken (bijvoorbeeld  C:\Program Files\ImageMagick-7.0.7-14-Q16)
 
 4. Even controleren of ImageMagick goed geinstalleerd is.
 Willekeurige PDF in willekeurige map.
